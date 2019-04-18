@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+}
+
+.calendar{
+    height: 550px;
+    width: 450px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.top
+{
+    height: 175px;
+    width: 450px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    display: inline-block;
+}
+.top *
+{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.number{
+    position: relative;
+    top: -45px;
+    left: 250px;
+    font-size: 120px;
+}
+
+.bottom
+{
+    height: 375px;
+    width: 450px;
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+
+.april
+{
+    position: relative;
+    left: 185px;
+    top: 20px;
+}
+
+ul
+{
+    position: relative;
+    float: left;
+    list-style-type: none;
+    margin-top: 30px;
+    left: 45px;
+
+}
+ul li
+{
+    display: inline;
+}
+ul li
+{
+    color: #fff;
+    padding: 5px 15px;
+    border: 1px solid transparent ;
+    border-radius: 15px;
+}
+ul li.sunday
+{
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+}
+
+
+
+.one_to_seven *
+{
+    padding-right: 5px;
+}
+.one_to_seven{
+    left:45px;
+}
+
+.eight_to_fourteen *
+{
+    padding-right: 5px;
+}
+.eight_to_fourteen{
+    left:45px;
+}
+
+._15_to_21 *
+{
+    padding-right: 5px;
+}
+._15_to_21{
+    left:46px;
+}
+
+._22_to_28 *
+{
+    padding-right: 5px;
+}
+._22_to_28{
+    left:46px;
+}
+.last *
+{
+    padding-right: 5px;
+}
+.last{
+    left:-295px;
+    top: 45px;
+}
+
+.last_
+{
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+}
